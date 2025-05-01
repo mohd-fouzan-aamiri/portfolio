@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.timeline-item {
+  margin-bottom: 2rem;
+}
+
+.timeline-item h5 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-item p {
+  margin-bottom: 0.5rem;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
